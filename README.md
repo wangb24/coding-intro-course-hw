@@ -8,7 +8,7 @@ large class projects will store into individual repositories
 ## active homework
 
 - [ ] [hello world](./tri1/wk1/tr1-wk1-001/helloworld/helloworld.pde)
-- [ ] [draw a castle]()
+- [ ] [draw a castle](./tri1/wk1/tr1-wk1-002/castle/castle.pde)
 
 ---
 
