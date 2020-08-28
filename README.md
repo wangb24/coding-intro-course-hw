@@ -1,6 +1,6 @@
 # wangb24/coding-intro-course-hw
 homework for Intro to Computer Science class 
-<a herf="www.rabungap.org"><strong>@Rabun Gap Nacoochee School</strong></a>
+<a herf="www.rabungap.org">@Rabun Gap Nacoochee School</a>
 
 large class projects will store into individual repositories
 
