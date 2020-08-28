@@ -12,6 +12,10 @@ large class projects will store into individual repositories
 
 ---
 
+### If you found something in the code that could improve or has bug, you can open an issue. 
+
+---
+
 ## currently studying 
 
 - [ ] Processing
