@@ -18,4 +18,5 @@ large class projects will store into individual repositories
 
 ---
 
-Teacher: @michaellomuscio
+Teacher: [@michaellomuscio](https://github.com/michaellomuscio)
+Course: [Introduction to Coding Course](https://github.com/michaellomuscio/Introduction-to-Coding-Course)
