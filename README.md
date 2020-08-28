@@ -4,6 +4,8 @@ homework for Intro to Computer Science class
 
 large class projects will store into individual repositories
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 ---
 
 ## active homework
