@@ -6,7 +6,7 @@
 
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 
-homework for Intro to Computer Science class at 
+homework for *Intro to Computer Science* class at 
 [Rabun Gap Nacoochee School](https://www.rabungap.org/)
 
 large class projects will store into individual repositories
