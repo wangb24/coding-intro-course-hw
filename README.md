@@ -38,9 +38,19 @@ tr[#]-wk[#]-[###] (folders for each homework
 
 ---
 
-## currently studying 
+## lesson plan
+
+### currently studying 
 
 - [ ] Processing
+
+### each trimester
+
+tr1 --> Processing
+
+tr2 --> R language
+
+tr3 --> HTML / CSS / JavaScript
 
 ---
 
