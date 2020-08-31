@@ -17,6 +17,10 @@ large class projects will store into individual repositories
 
 - [x] ~[hello world](./tri1/wk1/tr1-wk1-001/helloworld/helloworld.pde)~
 - [x] ~[draw a castle](./tri1/wk1/tr1-wk1-002/castle/castle.pde)~
+- [x] ~three class projects~
+  - [x] ~[four circles](./tri1/wk2/tr1-wk2-001/project/circles/circles.pde)~
+  - [x] ~[three lines](./tri1/wk2/tr1-wk2-001/project/lines/lines.pde)~
+  - [x] ~[three triangles](./tri1/wk2/tr1-wk2-001/project/triangles/triangles.pde)~
 
 ---
 
