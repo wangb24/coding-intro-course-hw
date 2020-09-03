@@ -9,19 +9,21 @@ color c2 = color(random(255), random(255), random(255));
 color c3 = color(random(255), random(255), random(255));
 color c4 = color(random(255), random(255), random(255));
 
-// float xloc = h/2; //class  example
-// float yloc = w/2; //class example
-// float cw = 50; //class example
-// float ch = 50; //class example
+float xloc = h/2; //class  example
+float yloc = w/2; //class example
+float cw = 50; //class example
+float ch = 50; //class example
 
-/* notes
+/* notes here
 float --- decimal 
 int --- full number
 color --- color
 etc.
 */
 
-/* class example
+// class example
+// growing circle
+
 void setup() {
     size(1024, 1024);
 }
@@ -37,10 +39,11 @@ void mousePressed() {
 void keyPressed() {
     ch = ch + 1;
 }
-*/
 
-// classwork starts here
 
+// classwork starts here (in the comments)
+// moving circle
+/*
 float xloc = 0;
 float yloc = 0;
 float coeff = 10;
@@ -66,3 +69,4 @@ void mousePressed() {
 void keyPressed() {
     yloc = yloc + coeff;    
 }
+*/
