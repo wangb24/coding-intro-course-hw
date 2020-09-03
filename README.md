@@ -15,6 +15,7 @@ large class projects will store into individual repositories
 
 ## active homework
 
+n/a
 
 ---
 
