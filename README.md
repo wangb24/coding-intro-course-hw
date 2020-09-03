@@ -45,7 +45,7 @@ wk[#] (folders for each week
 
 ⇓
 
-tr[#]-wk[#]-[###] (folders for each homework
+tr[#]-wk[#]-[###] (folders for each class
 
 ---
 
