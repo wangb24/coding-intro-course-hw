@@ -1,6 +1,6 @@
 # wangb24/coding-intro-course-hw
 
-## If you found anything that could improve or has bug, you can open an issue. 
+## If you found anything that could improve or has bug, you can open an Issue. 
 
 ---
 
