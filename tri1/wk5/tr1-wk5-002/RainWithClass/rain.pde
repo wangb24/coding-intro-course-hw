@@ -1,6 +1,6 @@
 public class rain  {
 
-    public rain (x, y, r) {
+    public rain (x, y, d) {
         
     }
 
