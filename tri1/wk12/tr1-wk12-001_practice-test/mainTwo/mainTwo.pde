@@ -33,6 +33,10 @@ void setup() {
 void draw() {
 	background(255);
 	
+    fill(0);
+    textAlign(LEFT);
+    text(score, 10, 30);
+    
 	for (int i = 0; i < count; i++) {
 		balls[i].display();
 		balls[i].check();
@@ -54,6 +58,9 @@ void draw() {
 			time = frameCount/float(frate);
 			check = false;
 		}
+        textAlign(CENTER);
+        fill(0);
+        text(time+" seconds", width/2, height/2);
 		println(time);
 		
 	}
@@ -75,12 +82,14 @@ void keyPressed() {
 void keyReleased() {
 	if (key == 'w'){
 		moveU = false;
-	}else if (key == 's'){
+	}
+    if (key == 's'){
 		moveD = false;
 	}
 	if (key == 'a'){
 		moveL = false;
-	}else if(key == 'd'){
+	}
+    if(key == 'd'){
 		moveR = false;
 	}
 }
