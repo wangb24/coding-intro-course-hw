@@ -47,15 +47,22 @@ tr[#]-wk[#]-[###] (folders for each class
 
 ### currently studying 
 
-- [ ] Processing
+- [x] Processing
+- [ ] HTML
+- [ ] CSS
+- [ ] JS
 
 ### each trimester
 
 tr1 --> Processing
 
-tr2 --> R language
+~~tr2 --> R language~~
 
-tr3 --> HTML / CSS / JavaScript
+tr2 --> HTML / CSS / JavaScript 
+
+~~tr3 --> HTML / CSS / JavaScript~~
+
+tr3 --> R language
 
 ---
 
