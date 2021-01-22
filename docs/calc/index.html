@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script src="debug.js"></script>
+</head>
+<body style="padding: 5vh 5vw; background-color: antiquewhite">
+    <div style="margin-right: auto; margin-left: auto; margin-top: 3vh" >
+        <table style="margin: 5px auto; width: 45vw;">
+            <tr>
+                <td colspan="4">
+
+
+
+
+
+
+                    <input type="text" id="numPad" style="width: 85%; font-weight: normal; font-size: 34px; text-align: right" value="0" dir="ltr" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" class="btn" onclick="updateNum(1)"></td>
+                <td><input type="button" value="2" class="btn" onclick="updateNum(2)"></td>
+                <td><input type="button" value="3" class="btn" onclick="updateNum(3)"></td>
+                <td><input type="button" value="&plus;" class="btn" onclick="calcSign('p', '&plus;')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" class="btn" onclick="updateNum(4)"></td>
+                <td><input type="button" value="5" class="btn" onclick="updateNum(5)"></td>
+                <td><input type="button" value="6" class="btn" onclick="updateNum(6)"></td>
+                <td><input type="button" value="&minus;" class="btn" onclick="calcSign('m', '&minus;')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" class="btn" onclick="updateNum(7)"></td>
+                <td><input type="button" value="8" class="btn" onclick="updateNum(8)"></td>
+                <td><input type="button" value="9" class="btn" onclick="updateNum(9)"></td>
+                <td><input type="button" value="&times;" class="btn" onclick="calcSign('t', '&times;')" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." class="btn" onclick="updateNum('.')"></td>
+                <td><input type="button" value="0" class="btn" onclick="updateNum(0)"></td>
+                <td><input type="button" value="=" class="btn" onclick="calcResult()"></td>
+                <td><input type="button" value="&div;" class="btn" onclick="calcSign('d', '&div;')" disabled></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+                <td colspan="2"><input type="button" value="Clear" class="btn" onclick="clearInput()"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="debug">
+        <button onclick="debug(1)">see stored number and operator</button>
+    </div>
+</body>
+</html>
