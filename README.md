@@ -9,7 +9,7 @@
 homework for *Intro to Computer Science* class at 
 [Rabun Gap Nacoochee School](https://www.rabungap.org/)
 
-large class projects will store into [another repository](https://github.com/wangb24/coding-intro-course-projects)
+~~large class projects will store into [another repository](https://github.com/wangb24/coding-intro-course-projects)~~
 
 ---
 
