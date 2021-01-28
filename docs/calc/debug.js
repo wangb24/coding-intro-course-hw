@@ -3,7 +3,7 @@ function debugJS(what){
     let p = document.getElementById("numPad")
     switch (what){
         case 1:
-            for(i=0; i<numCount; i++){
+            for(let i=0; i<numCount; i++){
                 debugMsg = debugMsg + num[i] + sign[i]
             }
             alert(debugMsg)
@@ -15,29 +15,13 @@ function debugJS(what){
             }
             break
         case 32:
-            let result
-            num[numCount] = Number(p.value.slice(-numLength))
-            sign[numCount] = 'e'
-            numCount += 1
-            for (let i=0; i<numCount; i++){
-                let n = num[i]
-                switch (i){
-                    case 0:
-                        result = n
-                        break
-                    default:
-                        let s = sign[i-1]
-                        if (s === 't'){
-                            result = result * n
-                        }else if (s === 'd'){
-                            result = result / n
-                        }
-                        break
-                }
-            }
-            console.log(result)
-            clearInput()
-            return result
+            alert("no function in case32")
+            break
+        case 50:
+            let b = eval(prompt("Enter equation: "))
+            alert("Answer is: " + b)
+            console.log(b)
+            return b
         case 99:
             let h = "HELLO WORLD!"
             alert(h)
@@ -47,4 +31,9 @@ function debugJS(what){
             alert("No input!")
             break
     }
+}
+
+function showDebugOptions(){
+    document.getElementById("debug").style.display = 'block'
+    document.getElementById("debugbtn").style.display = 'none'
 }

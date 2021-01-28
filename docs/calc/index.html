@@ -1,3 +1,11 @@
+<!--
+Created by https://github.com/wangb24 for a class project
+
+licensed under Creative Commons BY-NC-SA 4.0
+
+any questions contact: e2.to2.e4@outlook.com
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +15,7 @@
     <script src="main.js"></script>
     <script src="debug.js"></script>
 </head>
-<body style="padding: 5vh 5vw; background-color: antiquewhite">
+<body style="padding: 5vh 5vw; background-color: antiquewhite" onload="whenPageLoad()">
     <div style="margin-right: auto; margin-left: auto; margin-top: 3vh" >
         <table style="margin: 5px auto; width: 45vw;">
             <tr>
@@ -45,10 +53,13 @@
             </tr>
         </table>
     </div>
-    <div id="debug">
+    <br><br>
+    <button onclick="showDebugOptions()" id="debugbtn" style="display: block;">Show debug</button>
+    <div id="debug" style="display: none">
         <button onclick="debugJS(1)">see stored number and operator</button>
         <button onclick="debugJS(31)">Enable all btn</button>
         <button onclick="debugJS(32)">Run functions in case32 in debug.js</button>
+        <button onclick="debugJS(50)">Check Calculation w/ eval()</button>
     </div>
 </body>
 </html>
