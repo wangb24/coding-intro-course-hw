@@ -39,13 +39,13 @@ any questions contact: e2.to2.e4@outlook.com
                 <td><input type="button" value="7" class="btn" onclick="updateNum(7)"></td>
                 <td><input type="button" value="8" class="btn" onclick="updateNum(8)"></td>
                 <td><input type="button" value="9" class="btn" onclick="updateNum(9)"></td>
-                <td><input type="button" value="&times;" class="btn" onclick="calcSign('t', '&times;')" disabled></td>
+                <td><input type="button" value="&times;" class="btn" onclick="calcSign('t', '&times;')"></td>
             </tr>
             <tr>
                 <td><input type="button" value="." class="btn" onclick="updateNum('.')"></td>
                 <td><input type="button" value="0" class="btn" onclick="updateNum(0)"></td>
                 <td><input type="button" value="=" class="btn" onclick="calcResult()"></td>
-                <td><input type="button" value="&div;" class="btn" onclick="calcSign('d', '&div;')" disabled></td>
+                <td><input type="button" value="&div;" class="btn" onclick="calcSign('d', '&div;')"></td>
             </tr>
             <tr>
                 <td></td><td></td>
@@ -57,8 +57,8 @@ any questions contact: e2.to2.e4@outlook.com
     <button onclick="showDebugOptions()" id="debugbtn" style="display: block;">Show debug</button>
     <div id="debug" style="display: none">
         <button onclick="debugJS(1)">see stored number and operator</button>
-        <button onclick="debugJS(31)">Enable all btn</button>
-        <button onclick="debugJS(32)">Run functions in case32 in debug.js</button>
+<!--        <button onclick="debugJS(31)">Enable all btn</button>-->
+<!--        <button onclick="debugJS(32)">Run functions in case32 in debug.js</button>-->
         <button onclick="debugJS(50)">Check Calculation w/ eval()</button>
     </div>
 </body>
