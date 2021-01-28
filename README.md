@@ -9,7 +9,7 @@
 homework for *Intro to Computer Science* class at 
 [Rabun Gap Nacoochee School](https://www.rabungap.org/)
 
-large class projects will store into [another repository](https://github.com/wangb24/coding-intro-course-projects)
+~~large class projects will store into [another repository](https://github.com/wangb24/coding-intro-course-projects)~~
 
 ---
 
@@ -21,7 +21,7 @@ n/a
 
 ### In Progress 
 
-n/a
+- [ ] docs/calc
 
 ---
 
@@ -48,8 +48,8 @@ tr[#]-wk[#]-[###] (folders for each class
 ### currently studying 
 
 - [x] Processing
-- [ ] HTML
-- [ ] CSS
+- [x] HTML
+- [x] CSS
 - [ ] JS
 
 ### each trimester
@@ -62,7 +62,7 @@ tr2 --> HTML / CSS / JavaScript
 
 ~~tr3 --> HTML / CSS / JavaScript~~
 
-tr3 --> R language
+tr3 --> R lang
 
 ---
 
