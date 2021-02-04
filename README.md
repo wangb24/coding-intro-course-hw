@@ -21,7 +21,7 @@ n/a
 
 ### In Progress 
 
-- [ ] docs/calc
+- [x] docs/calc
 
 ---
 
@@ -50,7 +50,7 @@ tr[#]-wk[#]-[###] (folders for each class
 - [x] Processing
 - [x] HTML
 - [x] CSS
-- [ ] JS
+- [x] JS
 
 ### each trimester
 
