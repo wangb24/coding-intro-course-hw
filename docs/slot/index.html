@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slot Machine - by wangb24</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="scripts/whenLoad.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body onload="whenLoad()">
+    <table>
+        <tr>
+            <td><input class="display" id="dis1" type="text" disabled></td>
+            <td><input class="display" id="dis2" type="text" disabled></td>
+            <td><input class="display" id="dis3" type="text" disabled></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input class="btn" type="text" id="points" style="width: 200px" disabled></td>
+            <td><input type="button" class="btn" id="roll" value="GO!!!" onclick="roll()"></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+    margin: 10vh 10vw;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.display {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 64px;
+    padding: 10px;
+    text-align: center;
+}
+
+input.btn {
+    display: block;
+    padding: 10px;
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
