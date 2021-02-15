@@ -60,7 +60,7 @@ function determinPt(){
     }else if(i===0){
         getPt = 100
     }else if(ab===0||bc===0||ca===0){
-        getPt = 10
+        getPt = 5
     }else if(i===4 && notSame(dis[0], dis[1], dis[2])){
         getPt = 10
     }else{
