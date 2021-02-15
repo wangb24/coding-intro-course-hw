@@ -31,7 +31,7 @@ function displayRule() {
         "Each spin cost 5 points\n" +
         "When 3 numbers are the same: you got 500 points \n" +
         "When 3 numbers are the same and they are all 7: you got 100 points \n" +
-        "When 2 numbers are the same: you got 10 points \n" +
+        "When 2 numbers are the same: you got 5 points \n" +
         "When 3 numbers are next to each other: you got 10 point"
     alert(rule)
 }
