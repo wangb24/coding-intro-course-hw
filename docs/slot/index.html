@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="main.css">
     <script src="scripts/whenLoad.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/helperFunc.js"></script>
 </head>
 <body onload="whenLoad()">
     <table>
@@ -16,7 +17,10 @@
         </tr>
         <tr>
             <td colspan="2"><input class="btn" type="text" id="points" style="width: 200px" disabled></td>
-            <td><input type="button" class="btn" id="roll" value="GO!!!" onclick="roll()"></td>
+            <td><input type="button" class="btn" id="roll" value="GO!!!" onclick="rollIT()"></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="msg" style="text-align: center; font-family: monospace" class="btn"></td>
         </tr>
     </table>
 </body>

@@ -1,8 +1,19 @@
 let pt, dis = [7,7,7]
-
-function roll() {
+let confirmMSG = "You have no points left\n" +
+    "do you want to add 50 points?"
+let msg = ""
+function rollIT() {
     let r = true, which = 0
+    msg = ""
+    if (checkAvailablePt()===false){
+        if (confirm(confirmMSG)){
+            pt += 50
+            update()
+        }
+        return undefined
+    }
     document.getElementById("roll").disabled = true;
+    pt -= 5;
     while (r) {
         switch (which) {
             case 0:
@@ -33,17 +44,37 @@ function roll() {
                 break
         }
     }
-
+    determinPt()
+    update()
     document.getElementById("roll").disabled = false
 }
 
 function determinPt(){
-    let ab = diff(num[0], num[1]),
-        bc = diff(num[1], num[2]),
-        ca = diff(num[2], num[0])
-
+    let ab = diff(dis[0], dis[1]),
+        bc = diff(dis[1], dis[2]),
+        ca = diff(dis[2], dis[0]),
+        getPt
+    let i = ab+bc+ca
+    if (i===0 && dis[0]===7) {
+        getPt = 500
+    }else if(i===0){
+        getPt = 100
+    }else if(ab===0||bc===0||ca===0){
+        getPt = 10
+    }else if(i===4 && notSame(dis[0], dis[1], dis[2])){
+        getPt = 10
+    }else{
+        getPt = 0
+    }
+    pt += getPt
+    let netChange = getPt - 5
+    if (netChange >= 0){
+        msg = "You got " + Math.abs(netChange) + " points!"
+    }else {
+        msg = "You lost 5 points."
+    }
 }
 
-function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
+function checkAvailablePt() {
+    return pt >= 5;
 }
