@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Picker - by wangb24</title>
+<!--
+    This website is created by https://github.com/wangb24,
+    and is a project for computer science class.
+    Created with Webstorm (education license).
+    This website is noncommercial,
+    and licensed under Creative Commons - BY NC SA 4.0 International.
+-->
+    <link rel="stylesheet" href="main.css">
+    <script src="scripts/onLoad.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/functions.js"></script>
+</head>
+<body onload="onLoad()">
+    <h1>Help me pick</h1>
+    <div id="Input">
+        <table class="centering">
+            <tbody class="centering" id="inputTable">
+            <tr><td colspan="5" class="centering"><input type="text" class="userInput" onclick="newInput()" /></td></tr>
+            <tr><td colspan="5" class="centering"><input type="text" class="userInput" onclick="newInput()" /></td></tr>
+            </tbody>
+            <tbody style="float: right">
+            <tr><td class="placeHolder"></td><td class="placeHolder"></td>
+                <td><input type="button" onclick="addNewInput()" value="Add new row" /></td>
+                <td><input type="button" onclick="pick()" value="Help Me Pick!" /></td>
+                <td class="placeHolder"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="Result" class="centering"></div>
+</body>
+</html>

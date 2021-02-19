@@ -1,0 +1,46 @@
+body {
+    background-color: antiquewhite;
+    padding: 10vh 20vw;
+}
+
+.centering {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 50vw;
+    max-width: 1000px;
+}
+
+tr {
+    display: block;
+    margin: 0 auto;
+}
+
+.userInput {
+    width: 35vw;
+    max-width: 700px;
+    text-align: center;
+    display: block;
+    margin: 3% auto;
+    font-size: large;
+    padding: 5px;
+}
+
+.btn {
+    display: block;
+    font-size: medium;
+    float: right;
+}
+
+#Result {
+    width: 40vw;
+    max-width: 800px;
+    text-align: center;
+    font-size: large;
+}
+
+.placeHolder {
+    width: 20%;
+}
